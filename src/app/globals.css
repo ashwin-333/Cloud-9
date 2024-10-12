@@ -1,0 +1,322 @@
+.body-class {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('/background-color.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  background-image: url('/crowd-background-actual.svg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.logo {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 280px;
+  height: auto;
+}
+
+.home-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: auto;
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none; 
+}
+
+.home-button:hover .home-icon {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.event-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.event-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-box:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.event-box h2 {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.event-box p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.event-details-container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.artist-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.event-details-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.event-details-container p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.buy-tickets {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.buy-tickets:hover {
+  background-color: #004494;
+}
+
+.event-page {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.artist-background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.event-details-content {
+  text-align: center;
+  z-index: 1;
+}
+
+.event-details-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.event-details-content p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.buy-tickets {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.buy-tickets:hover {
+  background-color: #004494;
+}
+
+.home-icon {
+  width: 40px;
+  height: auto;
+}
+
+.home-button:hover .home-icon {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.google-sign-in-button {
+  padding: 10px 15px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.google-sign-in-button:hover {
+  background-color: #357ae8;
+}
+
+.top-right-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 80px; 
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background-color: #d9534f; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.logout-button:hover {
+  background-color: #c9302c; 
+}
+
+.concert-groups-button {
+  width: 80px; /* Adjust button size here */
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.concert-groups-dropdown {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.concert-groups-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.concert-groups-dropdown li {
+  padding: 10px;
+}
+
+.concert-groups-dropdown li:hover {
+  background-color: #f1f1f1;
+}
+
+.concert-groups-dropdown a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.attendees-section {
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.attendees-section h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.attendee-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.attendee-list li {
+  font-size: 1.2rem;
+  color: #555;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.attendee-list li:last-child {
+  border-bottom: none;
+}
